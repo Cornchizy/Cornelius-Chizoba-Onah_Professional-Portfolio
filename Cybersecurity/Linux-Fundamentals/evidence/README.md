@@ -1,28 +1,22 @@
-# Evidence
+## Screenshot Evidence
 
-This folder contains screenshots from my hands-on Linux Fundamentals practice performed in my Kali Linux VirtualBox lab.
+The following screenshots document hands-on practice completed during this Linux Fundamentals project.
 
-The screenshots provide evidence of practical work completed during the project.
+### Evidence Categories
 
-## Evidence Categories
+- Linux Navigation and File System
+- File and Directory Management
+- Finding and Inspecting Files
+- Permissions and Ownership
+- Users, Groups, and Privileges
+- Processes
+- Services
+- Networking Basics
+- Listening Ports
+- Linux Logs
+- File Investigation
+- File Hashing
+- Linux Security Investigation
+- Final Lab Summary
 
-1. Linux Navigation and File System
-2. File and Directory Management
-3. Finding and Inspecting Files
-4. Permissions and Ownership
-5. Users, Groups, and Privileges
-6. Processes and Services
-7. Networking Basics
-8. Linux Logs
-9. File Investigation and Hashing
-10. Linux Security Investigation
-
-## Lab Environment
-
-- Operating System: Kali Linux
-- Platform: VirtualBox
-- Environment: Personal cybersecurity lab
-
-## Note
-
-All screenshots were captured during hands-on practice in my personal lab environment for educational purposes.
+The complete screenshot evidence is available in the [evidence folder](evidence/).
