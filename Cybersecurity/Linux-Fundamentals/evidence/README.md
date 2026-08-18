@@ -19,4 +19,4 @@ The following screenshots document hands-on practice completed during this Linux
 - Linux Security Investigation
 - Final Lab Summary
 
-The complete screenshot evidence is available in the [evidence folder](evidence/).
+The complete screenshot evidence is available in the evidence/ folder
