@@ -68,7 +68,6 @@ The following SPL query was used to search the security index:
 
 ```spl
 index=security
-
 5. Field Analysis
 
 Important authentication fields were displayed using:
@@ -131,12 +130,12 @@ The investigation identified repeated failed authentication attempts associated 
 
 The suspicious activity was investigated by:
 
-Identifying failed authentication events.
-Ranking source IP addresses by the number of failures.
-Identifying accounts receiving repeated failures.
-Correlating source IP addresses with usernames.
-Reviewing the authentication timeline.
-Checking whether successful authentication occurred after repeated failures.
+Identifying failed authentication events
+Ranking source IP addresses by the number of failures
+Identifying accounts receiving repeated failures
+Correlating source IP addresses with usernames
+Reviewing the authentication timeline
+Checking whether successful authentication occurred after repeated failures
 
 Repeated authentication failures can be an indicator of password guessing or brute-force activity. A successful authentication following multiple failures should receive additional investigation to determine whether the login was legitimate or potentially unauthorized.
 

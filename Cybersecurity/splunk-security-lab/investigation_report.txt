@@ -1,0 +1,26 @@
+SPLUNK AUTHENTICATION SECURITY INVESTIGATION
+
+Investigation Objective
+The objective of this investigation was to analyze authentication events using Splunk and identify potentially suspicious login activity.
+
+Data Source
+The investigation used a controlled authentication dataset containing successful and failed login events.
+
+Investigation Steps
+1. Imported authentication events into Splunk.
+2. Used SPL to identify failed authentication attempts.
+3. Grouped failed logins by source IP address.
+4. Grouped failed logins by username.
+5. Correlated source IP addresses with targeted accounts.
+6. Investigated the activity timeline of the most suspicious source.
+7. Created a detection for repeated failed authentication attempts.
+8. Created a dashboard to visualize authentication activity.
+
+Finding
+The investigation identified repeated failed login attempts associated with a particular source IP and user account. The activity was investigated further by examining the authentication timeline and checking whether a successful login occurred after the failed attempts.
+
+Security Assessment
+Repeated failed authentication attempts can be an indicator of password guessing or brute-force activity. A successful login following multiple failures should be investigated further to determine whether the account was legitimately accessed or potentially compromised.
+
+Conclusion
+Splunk and SPL can be used to search, filter, correlate, and visualize authentication events. The investigation demonstrated how a SOC analyst can use log data to identify suspicious authentication patterns and support further incident investigation.
